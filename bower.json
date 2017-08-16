@@ -1,0 +1,52 @@
+{
+    "name": "triage-fpp",
+    "version": "0.0.1",
+    "authors": [
+        "Disney"
+    ],
+    "description": "Triage Fpp building block",
+    "main": [
+        "dist/triage-fpp.module.js",
+        "dist/assets/triage-fpp.css"
+    ],
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "hooks/**",
+        "src/**",
+        "test/**",
+        "tmp/**",
+        "dist/node_modules/**",
+        "dist/static/**",
+        "Gruntfile.js",
+        "README.md",
+        "build.conf.js",
+        "karma.conf.js",
+        "package.json",
+        "protractor.conf.js"
+      ],
+    "dependencies": {
+        "angular": "~1.4.9",
+        "angular-animate": "~1.4.9",
+        "angular-sanitize": "~1.4.9",
+        "angular-aria": "~1.4.9",
+        "angular-messages": "~1.4.9",
+        "jquery": "~2.1.4",
+        "bootstrap": "~3.3.7",
+        "moment": "~2.10.6",
+        "wdpr-angular-logger": ">0.0.0",
+        "wdpr-angular-router": ">0.0.0",
+        "wdpr-angular-error-handler": ">0.0.0",
+        "wdpr-angular-feature-config": ">0.0.0",
+        "wdpr-angular-feature-toggles": ">0.0.0"
+    },
+    "devDependencies": {
+        "angular-mocks": "~1.4.9",
+        "bardjs": "~0.1.8"
+    },
+    "resolutions": {
+        "angular": "~1.4.9",
+        "angular-mocks": "~1.4.9"
+    }
+}
